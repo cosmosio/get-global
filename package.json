@@ -1,0 +1,37 @@
+{
+  "name": "get-global",
+  "description": "get the global object, independently of the JS runtime",
+  "version": "0.0.1",
+  "homepage": "https://github.com/cosmosio/get-global",
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://raw.github.com/cosmosio/get-global/master/LICENSE"
+    }
+  ],
+  "files": [
+    "LICENSE",
+    "index.js"
+  ],
+  "author": "Olivier Scherrer <pode.fr@gmail.com>",
+  "keywords": [
+    "global",
+    "object",
+    "window"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:cosmosio/get-global.git"
+  },
+  "bugs": {
+    "url": "https://github.com/cosmosio/get-global/issues"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "main": "index.js",
+  "devDependencies": {
+    "chai": "~1.9.1",
+    "mocha": "~1.18.2"
+  }
+}
